@@ -21,7 +21,13 @@ O design do site do "Sabor e Arte" será moderno e elegante, refletindo a sofist
 
 Para garantir que o site ofereça uma experiência de usuário impecável, utilizaremos tecnologias de ponta, incluindo
 
-
+![Html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)&nbsp; 
+![Css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)&nbsp; 
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)&nbsp; 
+![Php](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)&nbsp; 
+## Ferramentas Utilizadas
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)&nbsp; 
+![Mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)&nbsp; 
 ## Desenvolvimento e Implementação
 
 * Construção do site conforme o design aprovado.
