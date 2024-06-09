@@ -1,0 +1,222 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Rubik', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing:grayscale;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+--nav-bar-color:#FFFFFF;
+--nav-bar-bg:#FFFFFF;
+--nav-bar-text-color:#1C1B1B;
+--h1-font-size:2.0rem;
+--h2-font-size:1.8rem;
+--h3-font-size:1.6rem;
+--p-font-size:1.3rem;
+--btn-font-size:1.4rem;
+--button-up-color:#FF8700;
+--nav-bar-hover-color:#FF8700;
+--span-color:#FF8700;
+--title-chef-color:#FF8700;
+--btn-color:#FFFFFF;
+--btn-bg-color:#FF8700;
+--border-radius:8px 23px 0 23px;
+--body-bg-color:#FFFFFF;
+--box-shadow-color: rgba(149, 157, 165, 0.089) 0px 8px 24px;
+font-size: 62.5%;
+}
+
+body{
+background: var(--body-bg-color);
+font-size: 1.6rem;
+overflow-x: hidden;
+}
+
+header{
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background: transparent;
+transition: background 0.3s ease;
+z-index: 1000;
+}
+
+header.scrolled {
+background:var(--btn-color);
+box-shadow:var(--box-shadow-color);
+}
+
+.navbar {
+display: flex;
+justify-content: space-around;
+padding: 4rem;
+margin-right: 46rem;
+margin-top: 1rem;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+gap: 3rem;
+}
+
+.nav-links a{
+text-decoration: none;
+color:var(--nav-bar-text-color);
+transition: all 0.3s ease;
+font-size: 1.5rem;
+font-weight: 400;
+}
+
+.nav-links a:hover {
+color:var(--nav-bar-hover-color);
+}
+
+.logo img{
+width: 60%;
+margin-top: -2rem;
+}
+
+.nav-bar-conteudo{
+position: absolute;
+left: 69rem;
+top: -1rem;
+}
+
+.nav-bar-conteudo img{
+width: 100%;
+object-fit: contain;
+}
+
+.nav-title{
+margin-top: 23rem;
+margin-left: 4rem;
+}
+
+.nav-title h1{
+font-size: var(--h1-font-size);
+font-weight: bold;
+color: var(--nav-bar-text-color);
+margin-left: 3rem;
+}
+
+.nav-title span{
+color: var(--span-color);
+}
+
+.nav-title h2{
+font-weight: 600;
+font-size: var(--h2-font-size);
+color: var(--nav-bar-text-color);
+margin-left: 3rem;
+margin-top: 1rem;
+}
+
+.nav-title p{
+font-size: var(--p-font-size);
+margin-top: 1rem;
+margin-left: 3rem;
+}
+
+.nav-btn-agendar{
+margin-left: 3rem;
+margin-top: 4rem;
+}
+
+.nav-btn-agendar a{
+text-decoration: none;
+background: var(--btn-bg-color);
+padding: 1.5rem 4rem;
+border-radius: var(--border-radius);
+color: var(--btn-color);
+font-size: var(--btn-font-size);
+}
+
+.conteudo-chef{
+    margin-top: 20rem; 
+    margin-left: 9rem; 
+}
+
+.conteudo-chef h2{
+font-weight: 600;
+color: var(--title-chef-color);
+font-size: var(--h2-font-size);
+margin-top: -20rem;
+margin-left: 24rem;
+}
+
+.conteudo-chef p{
+margin-left: 24rem;
+margin-top: 1rem; 
+font-size: var(--p-font-size);
+color: var(--nav-bar-text-color);
+}
+
+#about{
+position: relative;
+top: 40rem;
+}
+
+#about img{
+width: 30%;
+object-fit: contain;
+}
+
+.sobre-sabor-arte-conteudo{
+display:flex;
+flex-direction: column;
+position: absolute;
+top: -1rem;
+left: 42rem;
+gap: 1rem;
+}
+
+.sobre-sabor-arte-conteudo h2{
+    font-weight: 600;
+    font-size: var(--h2-font-size);
+    color: var(--nav-bar-text-color);
+    margin-top: 2rem;
+}
+
+.sobre-sabor-arte-conteudo span{
+    color: var(--span-color);
+}
+
+.sobre-sabor-arte-conteudo h3{
+    font-weight: 600;
+    font-size: var(--h3-font-size);
+    color: var(--nav-bar-text-color);
+}
+
+.sobre-sabor-arte-conteudo p{
+font-size: var(--p-font-size);
+color: var(--nav-bar-text-color);
+}
+
+.content {
+height: 2000px;
+padding: 20px;
+}
+  
+#scrollUpBtn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+width: 40px;
+height: 40px;
+font-size: 24px;
+border: none;
+border-radius: 50%;
+background:var(--button-up-color);
+color: var(--btn-color);
+cursor: pointer;
+}
+
